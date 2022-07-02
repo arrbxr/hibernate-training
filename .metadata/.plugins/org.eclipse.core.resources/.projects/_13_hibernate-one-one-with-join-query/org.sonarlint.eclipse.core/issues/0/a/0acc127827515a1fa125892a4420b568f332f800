@@ -1,0 +1,14 @@
+
+d	java:S106'"9Replace this use of System.out or System.err by a logger.(Ö„¯·Hí>RMAJORZ
+CODE_SMELL
+d	java:S106:"9Replace this use of System.out or System.err by a logger.(ØàåñHî>RMAJORZ
+CODE_SMELL
+d	java:S106)"9Replace this use of System.out or System.err by a logger.(÷ ØÍHì>RMAJORZ
+CODE_SMELL
+i	java:S106+"9Replace this use of System.out or System.err by a logger.(ÑúÛÄûÿÿÿÿHï>RMAJORZ
+CODE_SMELL
+i	java:S106="9Replace this use of System.out or System.err by a logger.(÷ööÄüÿÿÿÿHç>RMAJORZ
+CODE_SMELL
+Ž
+java:S1192'"_Define a constant instead of duplicating this literal "Employee is created  with Id::" 3 times.(Ö„¯·Hè>RCRITICALZ
+CODE_SMELL

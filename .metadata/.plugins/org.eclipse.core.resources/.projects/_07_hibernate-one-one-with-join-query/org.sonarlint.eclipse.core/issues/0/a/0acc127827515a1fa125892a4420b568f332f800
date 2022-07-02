@@ -1,0 +1,20 @@
+
+`
+java:S37401"/Provide the parametrized type for this generic.(¶¤ãşÿÿÿÿH˜6RMAJORZ
+CODE_SMELL
+[
+java:S37403"/Provide the parametrized type for this generic.(œÀŠƒH™6RMAJORZ
+CODE_SMELL
+
+java:S1192#"_Define a constant instead of duplicating this literal "Employee is created  with Id::" 3 times.(Ö„¯·Hš6RCRITICALZ
+CODE_SMELL
+d	java:S106#"9Replace this use of System.out or System.err by a logger.(Ö„¯·H6RMAJORZ
+CODE_SMELL
+d	java:S106%"9Replace this use of System.out or System.err by a logger.(÷ ØÍHŸ6RMAJORZ
+CODE_SMELL
+i	java:S106'"9Replace this use of System.out or System.err by a logger.(ÑúÛÄûÿÿÿÿH 6RMAJORZ
+CODE_SMELL
+d	java:S1065"9Replace this use of System.out or System.err by a logger.(ØàåñH¡6RMAJORZ
+CODE_SMELL
+i	java:S1068"9Replace this use of System.out or System.err by a logger.(÷ööÄüÿÿÿÿH¢6RMAJORZ
+CODE_SMELL

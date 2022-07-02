@@ -1,0 +1,14 @@
+
+i	java:S1067"9Replace this use of System.out or System.err by a logger.(Š“„ýÿÿÿÿÿH»4RMAJORZ
+CODE_SMELL
+d	java:S106?"9Replace this use of System.out or System.err by a logger.(Ö„¯·H¼4RMAJORZ
+CODE_SMELL
+d	java:S1065"9Replace this use of System.out or System.err by a logger.(¼¡¨òHº4RMAJORZ
+CODE_SMELL
+i	java:S106!"9Replace this use of System.out or System.err by a logger.(Š“„ýÿÿÿÿÿH¸4RMAJORZ
+CODE_SMELL
+i	java:S106-"9Replace this use of System.out or System.err by a logger.(Š“„ýÿÿÿÿÿH¹4RMAJORZ
+CODE_SMELL
+ 
+java:S1192!"lDefine a constant instead of duplicating this literal "Employee doesn't exist with provideded Id.." 3 times.(Š“„ýÿÿÿÿÿH±4RCRITICALZ
+CODE_SMELL

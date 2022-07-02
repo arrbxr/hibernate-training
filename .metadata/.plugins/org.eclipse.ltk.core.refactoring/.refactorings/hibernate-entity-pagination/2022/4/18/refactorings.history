@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;booksRoot&apos; in &apos;com.gd.client.App.getFiltereBooks(...)&apos; to &apos;employeeRoot&apos;&#x0D;&#x0A;- Original project: &apos;hibernate-entity-pagination&apos;&#x0D;&#x0A;- Original element: &apos;com.gd.client.App.getFiltereBooks(Params, Pageable).booksRoot&apos;&#x0D;&#x0A;- Renamed element: &apos;booksRoot&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;booksRoot&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.gd.client{App.java[App~getFiltereBooks~QParams;~QPageable;@booksRoot!2149!2205!2164!2172!QRoot\&lt;QEmployee;&gt;;!0!false" name="employeeRoot" references="true" stamp="1650987874264" version="1.0"/>
+</session>

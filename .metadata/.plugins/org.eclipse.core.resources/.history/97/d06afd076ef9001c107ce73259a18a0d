@@ -1,0 +1,28 @@
+package com.gd.client;
+
+import org.hibernate.Session;
+
+import com.gd.model.Employee;
+import com.gd.util.HibernateUtil;
+
+public class GetAllCacheEntries {
+	public static void main(String[] args) throws Exception {
+		Session session = null;
+		try {
+			Integer employeeId = 1;
+			session = HibernateUtil.getSessionFactory().openSession();
+			Employee employee1 = session.get(Employee.class, employeeId);
+			System.out.println(employee1);
+			
+			List<Cache.Entry<String, Foo>> foos = StreamSupport.stream(cache.spliterator(), false)
+					  .collect(Collectors.toList());
+			
+		} catch (Exception e) {
+			throw e;
+		} finally {
+			if (session != null) {
+				session.close();
+			}
+		}
+	}
+}

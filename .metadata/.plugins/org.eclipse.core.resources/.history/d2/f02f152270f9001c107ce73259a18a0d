@@ -1,0 +1,50 @@
+package com.gd.client;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.ConcurrentMap;
+
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import com.fasterxml.jackson.annotation.PropertyAccessor;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
+
+import net.bytebuddy.jar.asm.TypeReference;
+import net.sf.ehcache.Cache;
+import net.sf.ehcache.CacheManager;
+
+public class CacheController {
+    private final CacheManager cacheManager;
+    private final ObjectMapper objectMapper;
+
+    public CacheController(final CacheManager cacheManager) {
+        this.cacheManager = cacheManager;
+        this.objectMapper = new ObjectMapper();
+        this.objectMapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
+        this.objectMapper.configure(SerializationFeature.FAIL_ON_EMPTY_BEANS, false);
+    }
+
+    public Collection<String> getCacheNames() {
+        return cacheManager.getCacheNames();
+    }
+
+    public Map<String, Object> getEntriesForCache(final String cacheName) throws JsonProcessingException {
+        final Cache<String, Object> cache = (Cache<String, Object>) cacheManager.getCache(cacheName).getNativeCache();
+
+        final ConcurrentMap<String, Object> data = cache.asMap();
+        final String json = objectMapper.writeValueAsString(data);
+
+        final TypeReference<HashMap<String,Object>> typeRef = new TypeReference<>() {};
+        return objectMapper.readValue(json, typeRef);
+    }
+
+    public Map<String, Map<String, Object>> getAllEntries() throws JsonProcessingException {
+        final Map<String, Map<String, Object>> entries = new HashMap<>();
+        for(final String cacheName: getCacheNames()){
+            entries.put(cacheName, getEntriesForCache(cacheName));
+        }
+        return entries;
+    }
+}

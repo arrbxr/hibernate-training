@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\Users\GangadharParde\git\repository2_hibernate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1658243744.index
+\hibernate-hql\src\main\java
+C:\Users\GangadharParde\git\repository2_hibernate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1130460746.index
+\hibernate-pagination-embedded-tomcat\src\main\java
+C:\Users\GangadharParde\git\repository2_hibernate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2431612182.index
+\hibernate-embedded-tomcat-pegination\src\main\java

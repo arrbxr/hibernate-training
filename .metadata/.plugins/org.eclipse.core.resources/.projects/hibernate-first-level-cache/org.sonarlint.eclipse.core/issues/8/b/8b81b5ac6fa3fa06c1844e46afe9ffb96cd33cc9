@@ -1,0 +1,10 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Ôééæ8∞„Í’õ0Hñ8RMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(—Ã∂q8∞„Í’õ0Hï8RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(•ßÖÁ8∞„Í’õ0Hó8RMAJORZ
+CODE_SMELL
+ä
+java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ˆô˚ç8∞„Í’õ0Hî8RMINORZ
+CODE_SMELL

@@ -1,0 +1,40 @@
+package com.gd.client;
+
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.StreamSupport;
+
+import org.hibernate.Cache;
+import org.hibernate.Session;
+
+import com.gd.model.Employee;
+import com.gd.util.HibernateUtil;
+
+import net.sf.ehcache.CacheManager;
+
+public class GetAllCacheEntries {
+	public static void main(String[] args) throws Exception {
+		Session session = null;
+		try {
+			Integer employeeId = 1;
+			session = HibernateUtil.getSessionFactory().openSession();
+			Employee employee1 = session.get(Employee.class, employeeId);
+			System.out.println(employee1);
+			
+			List<CacheManager> cacheManagers=CacheManager.ALL_CACHE_MANAGERS;
+			
+			for (CacheManager cacheManager : cacheManagers) {
+				List<Cache.Entry<String, Foo>> foos = StreamSupport.stream(cacheManager.spliterator(), false)
+						  .collect(Collectors.toList());
+
+			}
+			
+		} catch (Exception e) {
+			throw e;
+		} finally {
+			if (session != null) {
+				session.close();
+			}
+		}
+	}
+}

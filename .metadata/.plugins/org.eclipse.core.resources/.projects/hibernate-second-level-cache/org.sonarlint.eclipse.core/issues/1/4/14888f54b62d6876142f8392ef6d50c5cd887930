@@ -1,0 +1,11 @@
+
+ƒ
+java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™ûH„9RMINORZ
+CODE_SMELL
+b
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ8ü –Ù›0H¸;RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(”ú«Éşÿÿÿÿ8©ÛüØ›0H·;RMAJORZ
+CODE_SMELL
+c	java:S106"9Replace this use of System.out or System.err by a logger.(ÑÌ¶qH…9RMAJORZ
+CODE_SMELL

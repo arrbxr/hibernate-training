@@ -1,0 +1,16 @@
+
+c
+java:S2589!"7Remove this expression which always evaluates to "true"(∑Öã–HÉ?RMAJORZ
+CODE_SMELL
+É
+java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ˆô˚çHá?RMINORZ
+CODE_SMELL
+c	java:S106"9Replace this use of System.out or System.err by a logger.(—Ã∂qHà?RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ÔééæHâ?RMAJORZ
+CODE_SMELL
+É
+java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ˆô˚çHä?RMINORZ
+CODE_SMELL
+c	java:S106"9Replace this use of System.out or System.err by a logger.(—Ã∂qHã?RMAJORZ
+CODE_SMELL

@@ -1,0 +1,9 @@
+1650607407611	Delete element
+1650607766792	Delete elements
+1650607772140	Delete element
+1650607775254	Delete element
+1650611534691	Extract method 'insert'
+1650611551446	Extract method 'seelect'
+1650611601241	Extract method 'update'
+1650611613927	Extract method 'delete'
+1650613199794	Rename resource 'Employee.hbm.xml'
